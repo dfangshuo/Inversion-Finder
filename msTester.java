@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class msTester {
     static int inversions = 0;
     public static void main(String[] args) {
-        double[] d = new double[]{1,2,5,3,4};
+        double[] d = new double[]{1, 20, 6, 4, 5};
         double[] m = mergeSort(d);
 //        for (double i : m) {
 //            System.out.println(i);
@@ -45,7 +45,7 @@ public class msTester {
                 merged[mIndex] = l1[lIndex];
                 lIndex += 1;
             } else {
-                inversions += 1;
+                inversions += (l1.length - lIndex);
                 merged[mIndex] = l2[rIndex];
                 rIndex += 1;
             }

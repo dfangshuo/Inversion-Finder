@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5ac839-15fc-4a77-8d42-4d95575a565f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/inversionFinder.java" afterPath="$PROJECT_DIR$/inversionFinder.java" />
-      <change beforePath="$PROJECT_DIR$/out/production/inversionFinder/inversionFinder.class" afterPath="$PROJECT_DIR$/out/production/inversionFinder/inversionFinder.class" />
+      <change beforePath="$PROJECT_DIR$/msTester.java" afterPath="$PROJECT_DIR$/msTester.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/inversionFinder/inversionFinder.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inversionFinder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="inversionFinder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inversionFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+            <state relative-caret-position="539">
+              <caret line="88" column="47" lean-forward="false" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="msTester.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="msTester.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="85">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -67,8 +67,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/inversions.txt" />
-        <option value="$PROJECT_DIR$/inversionFinder.java" />
         <option value="$PROJECT_DIR$/msTester.java" />
+        <option value="$PROJECT_DIR$/inversionFinder.java" />
       </list>
     </option>
   </component>
@@ -125,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.msTester">
+  <component name="RunManager" selected="Application.inversionFinder">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -240,8 +240,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.msTester" />
-        <item index="1" class="java.lang.String" itemvalue="Application.inversionFinder" />
+        <item index="0" class="java.lang.String" itemvalue="Application.inversionFinder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.msTester" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +263,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -299,7 +298,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msTester.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -356,18 +363,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inversionFinder.java">
+    <entry file="file://$PROJECT_DIR$/msTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        <state relative-caret-position="85">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msTester.java">
+    <entry file="file://$PROJECT_DIR$/inversionFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="539">
+          <caret line="88" column="47" lean-forward="false" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
           <folding />
         </state>
       </provider>

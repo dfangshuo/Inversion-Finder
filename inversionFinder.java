@@ -1,8 +1,9 @@
+import java.math.BigDecimal;
 import java.util.*;
 import java.io.*;
 
 public class inversionFinder {
-    static int inversions = 0;
+    static double inversions = 0;
 
     public static void main(String[] args) throws IOException {
 
@@ -23,6 +24,15 @@ public class inversionFinder {
             i += 1;
         }
 
+        int inv = 0;
+
+        for (double d : unsorted) {
+
+        }
+
+
+
+
         double[] sorted = mergeSort(unsorted);
 
 //        for (double d: sorted) {
@@ -30,6 +40,9 @@ public class inversionFinder {
 //
 //        }
         System.out.println(inversions);
+//         d = 2407905288;
+//        System.out.println(2407905288);
+        System.out.println(Double.NEGATIVE_INFINITY);
 //        System.out.println(sorted[2]);
 //        System.out.println(sorted[3]);
 
@@ -70,8 +83,14 @@ public class inversionFinder {
             } else if (l1[lIndex] < l2[rIndex]) {
                 merged[mIndex] = l1[lIndex];
                 lIndex += 1;
-            } else {
-                inversions += 1;
+            } else if (l1[lIndex] > l2[rIndex]) {
+//                System.out.println(l1.length - lIndex);
+//                System.out.println(inversions);
+//                if (inversions >= 2147476396) {
+//
+//                }
+                double inv = l1.length - lIndex;
+                inversions += inv;
                 merged[mIndex] = l2[rIndex];
                 rIndex += 1;
             }
